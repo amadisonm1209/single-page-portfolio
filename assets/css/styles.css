@@ -12,16 +12,35 @@ header{
     background-attachment: fixed;
     background-size: cover;
     background-position:  50% 50%;
+    margin-bottom: 50px;
 }
-h1 {
-    mix-blend-mode: difference;
+h1{
     font-family: 'Abril Fatface', cursive;
     font-size: 65px;
     margin: 0;
-    color: #CD5C5C;
+    color: navy;
 }
-.about {
-    min-height: 600px;
+.heading{
+    background-color: white;
+    opacity: .7;
+    margin: 50px 0;
+    padding-left: 50px;
+}
+.lead{
+    color: darkred;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    
+}
+#about{
+    min-height: 700px;
+    margin-bottom: 50px;
+    background-color: #FFE4E1;
+    font-family: 'Raleway', sans-serif;
+
+}
+.separator{
+    min-height: 100px;
 }
 .pic{
     max-width: 300px;
@@ -29,6 +48,28 @@ h1 {
     float: right;
 }
 section{
-    max-width: 960px;
     margin: 0 auto;
+}
+.card-img-top{
+    max-width: 100%;
+    max-height: 300px;
+}
+.card-text{
+    background-color: #FFE4E1;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.card-img-overlay{
+    padding:  15px 0;
+}
+.d-flex{
+    padding: 2px;
+}
+#portfolio{
+    min-height: 600px;
+    background-color: #D3D3D3;
+
 }
