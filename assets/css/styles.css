@@ -5,7 +5,7 @@ header{
     max-width: 100%;
 }
 
-.parallax {
+.parallax, .parallax-2 {
     min-height: 650px;
     max-width: 100%;
     background-image: url("../images/41608617_10217440879636708_6611309494502686720_o.jpg");
@@ -14,20 +14,40 @@ header{
     background-position:  50% 50%;
     margin-bottom: 50px;
 }
+.parallax-2{
+    margin-bottom: 0;
+}
+
 h1{
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface', sans-serif;
     font-size: 65px;
     margin: 0;
-    color: navy;
+    color: #FF7F50;
 }
-.heading{
+.heading, .contact-head{
     background-color: white;
     opacity: .7;
+    width: 50%;
     margin: 50px 0;
     padding-left: 50px;
 }
+.contact-head{
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 25px;
+    max-height: 250px;
+    margin-left: 0;
+    width: 63%;
+    color: #FF7F50;
+    padding: 5px;
+
+}
+.contact-me{
+    margin-left: 0;
+    padding-left: 0;
+}
+
 .lead{
-    color: darkred;
+    color: #191970;
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
     
@@ -35,9 +55,13 @@ h1{
 #about{
     min-height: 700px;
     margin-bottom: 50px;
-    background-color: #FFE4E1;
+    background-color: #F5F5DC;
     font-family: 'Raleway', sans-serif;
-
+    color:#FF7F50; 
+    font-size: 18px;
+}
+.rounded-circle{
+    border: 5px solid rgb(175,238,238);
 }
 .separator{
     min-height: 100px;
@@ -54,8 +78,12 @@ section{
     max-width: 100%;
     max-height: 300px;
 }
+.card-img-overlay:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(80%);
+}
 .card-text{
-    background-color: #FFE4E1;
+    background-color: #FF7F50;
     color: black;
     font-family: 'Raleway', sans-serif;
     width: 100%;
@@ -68,8 +96,27 @@ section{
 .d-flex{
     padding: 2px;
 }
+.flex-fill{
+    height: auto;
+}
 #portfolio{
     min-height: 600px;
-    background-color: #D3D3D3;
+    background-color: rgb(175,238,238);
 
+}
+.nav-link{
+    color: navy;
+}
+#contact{
+    margin-top: 50px;
+    min-height: 500px;
+    background-color: #AFEEEE;
+}
+.contact-img{
+    max-width: 50px;
+    max-height: auto;
+}
+
+footer{
+    max-height: 100px;
 }
