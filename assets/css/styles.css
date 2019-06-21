@@ -27,7 +27,7 @@ h1{
 .heading, .contact-head{
     background-color: white;
     opacity: .7;
-    width: 50%;
+    width: 60%;
     margin: 50px 0;
     padding-left: 50px;
 }
@@ -115,6 +115,12 @@ section{
 .contact-img{
     max-width: 50px;
     max-height: auto;
+    padding: 0;
+    border: none;
+    margin-right: 5px;
+}
+.contact-img:hover{
+    background-color: #FF7F50;
 }
 
 footer{
