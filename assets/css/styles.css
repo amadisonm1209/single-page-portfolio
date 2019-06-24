@@ -52,13 +52,18 @@ h1{
     font-size: 25px;
     
 }
+.welcome{
+    display: none;
+    color: white;
+    padding-left: 20px;
+}
 #about{
     min-height: 700px;
     margin-bottom: 50px;
     background-color: #F5F5DC;
     font-family: 'Raleway', sans-serif;
-    color:#FF7F50; 
-    font-size: 18px;
+    color:#191970; 
+    font-size: 16px;
 }
 .rounded-circle{
     border: 5px solid rgb(175,238,238);
@@ -125,4 +130,18 @@ section{
 
 footer{
     max-height: 100px;
+}
+
+.resume{
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 18px;
+    color: #191970;
+}
+.resume:hover{
+    color: #FF7F50;
+}
+.resumeImg {
+    max-width: 1000px;
+    max-height: auto;
+    margin-left: 50px;
 }
