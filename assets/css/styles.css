@@ -148,7 +148,7 @@ footer{
 
 @media only screen and (max-width: 768px) {
     .parallax, .parallax-2 {
-        width: 100%;
+        max-width:320px;
         background-image: url("../images/41608617_10217440879636708_6611309494502686720_o.jpg");
         background-attachment: fixed;
         margin-bottom: 50px;
