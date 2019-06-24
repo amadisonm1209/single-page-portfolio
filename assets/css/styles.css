@@ -146,14 +146,29 @@ footer{
     margin-left: 50px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
     .parallax, .parallax-2 {
-        min-height: 100px;
-        max-width: 100%;
+        width: 100%;
         background-image: url("../images/41608617_10217440879636708_6611309494502686720_o.jpg");
         background-attachment: fixed;
         background-size: cover;
         background-position:  50% 50%;
         margin-bottom: 50px;
+    }
+    .heading, 
+    .welcome, 
+    .contact-head, 
+    h1, 
+    .lead{
+        width: 70%;
+    }
+    .display-4{
+        font-size: 25px; 
+    }
+    h2{
+        font-size: 20px;
+    }
+    .welcome{
+        font-size: 25px;
     }
   }
