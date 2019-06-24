@@ -145,3 +145,15 @@ footer{
     max-height: auto;
     margin-left: 50px;
 }
+
+@media only screen and (max-width: 640px) {
+    .parallax, .parallax-2 {
+        min-height: 100px;
+        max-width: 100%;
+        background-image: url("../images/41608617_10217440879636708_6611309494502686720_o.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position:  50% 50%;
+        margin-bottom: 50px;
+    }
+  }
