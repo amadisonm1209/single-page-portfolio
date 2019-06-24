@@ -1,4 +1,4 @@
-Updated single-page portfolio that includes links to some of my projects, contact information and a version of my resum.
+Updated single-page portfolio that includes links to some of my projects, contact information and a version of my resume.
 
 I used HTML5, CSS3, BootStrap, jQuery, Javascript, and fancybox to build this. 
 
