@@ -170,5 +170,9 @@ footer{
     }
     .welcome{
         font-size: 25px;
+        color: #191970;
+    }
+    .offset-6{
+        margin-right: 15px;
     }
   }
